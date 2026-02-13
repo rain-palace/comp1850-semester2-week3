@@ -19,7 +19,9 @@ int main( void ) {
      * Implement the formula for compound interest.
      * Print out the final amount and the gain compared to the initial deposit.
      */
-    
+
+    printf("final amount is: \n", final_amount);
+    printf("the gain is: \n", gain);
 
     return 0;
 }
