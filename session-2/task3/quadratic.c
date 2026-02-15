@@ -21,8 +21,10 @@ int main( void ) {
      * You can define additional variable for intermediate results to make the code simpler.
      * Print out the final results for the 2 roots as float values.
      */
-
+    root1=(-b+sqrt(b*b-4*a*c)/2*a);
+    root2=(-b-sqrt(b*b-4*a*c)/2*a);
     
-
+    printf("root 1: %.2f\n", root1);
+    printf("root 2: %.2f\n", root2);
     return 0;
 }
